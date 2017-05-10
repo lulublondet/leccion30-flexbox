@@ -1,0 +1,94 @@
+
+.up-case{
+	  
+	  text-transform: uppercase;
+}
+
+.white {
+	
+	color:rgb(255,255,255);
+}
+
+
+.gray {
+	background-color: rgb(44,62,80);
+	}
+
+.gray-bold {
+	background-color: rgb(35,49,64);
+}
+
+.word-gray-bold {
+	color : rgb(35,49,64);
+}
+
+
+.green {
+	background-color: rgb(24,188,156); 
+}
+
+
+.center {
+	text-align: center;	
+}
+/*Estilos reutilizables de mi grilla */
+
+.fila {
+  		width: 100%;
+  		overflow:hidden;
+  	}
+
+
+/*Definición de las columnas de la grillas */
+
+[class*="col-"] {
+	float: left;
+	padding: 3%;
+	margin-right:1%; /*Variarlo según el layout */
+}
+
+/*Definición de los width de las  columnas de la grilla  en función a la unidad*/
+
+.col-2 {
+		min-width: 10%;
+		width: 16.5%;
+	}
+
+
+.col-4 {
+		min-width: 10%;
+		width: 32.6666%;
+	}
+
+.col-6 {
+		min-width: 10%;
+		width: 49.5%;
+	}
+
+.col-12 {
+		width: 100%;
+	}
+
+
+/*Seteo de los margenes de las grillas */	
+
+	.dos-columnas .col-6:nth-child(2n) ,
+	.tres-columnas .col-4:nth-child(3n) ,
+	.seis-columnas .col-2:nth-child(6n) {
+		margin-right: 0;
+	}
+
+ /*Las filas pares tendran el color verde y las filas impares tendran el color grey*/
+
+
+
+
+/*
+.fila:nth-child(even) {
+	
+}
+  	
+.fila:nth-child(odd){
+
+}  	
+*/

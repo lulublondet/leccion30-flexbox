@@ -1,0 +1,157 @@
+@import url("common.css");
+
+
+* {
+  	box-sizing: border-box;
+  	margin:0;
+  	padding: 0;
+  	color:rgb(255,255,255);
+  	font-family: 'Montserrat', sans-serif;
+  	font-size: 100%;
+ }
+
+body {
+  		background-color:#fff;
+  	}
+
+ul, 
+li, 
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+fieldset {
+	border:none;
+}
+
+
+ul.navbar-header {
+	height: 30px;
+	max-width: 100%;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 1%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;		
+}
+
+
+ul.navbar-header.up-case.right{
+	font-size: .7em;
+	justify-content: flex-end;
+}
+
+li {
+	display: inline-block;
+	padding: 2%;
+}
+
+
+ul.navbar-header.up-case.right li:nth-child(2n),
+ul.navbar-header.up-case.right li:nth-child(3n){
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+
+img.img-profile {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto 40px;
+}
+
+
+main .intro-text h1, 
+main .intro-text p {
+	font-size: 2.45em;
+	max-width: 100%;
+	height: auto;
+	margin:0 auto 20px;
+}
+
+main .intro-text p{
+	font-size: 1.25em;
+}
+
+
+hr.start-light,
+hr.start-dark {
+	border: none;
+	border-top: solid 5px;
+	max-width: 250px;
+	margin: 25px auto 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+hr.start-light {
+	border-color:#fff;
+}
+
+hr.start-dark {
+	border-color:rgb(44,62,80);
+}
+
+
+hr.start-light:after {
+	background-color: rgb(24,188,156); 
+	border-color:rgb(24,188,156); 
+}
+
+hr.start-dark:after {
+	background-color:#fff;
+	color:rgb(44,62,80);
+	border-color:#fff; 
+}
+
+hr:after {
+content: "\f005";
+font-family:FontAwesome;
+padding: .5%;
+font-size: 1.3em;
+position: absolute;
+border-radius: 50%; 
+border: 2px solid;
+}
+
+
+
+
+.centrado h2{
+	font-size: 2.2em;
+	text-align: center;
+}
+
+
+img.img-portafolio{
+	width:100%;
+	height: auto;
+	margin: 0;
+}
+
+.caja {
+
+	min-height: 100px;	
+	max-height: 500px;
+	padding: 10px;
+}
+
+
+
+a.boton-download {
+	font-size: 0.8em;	
+	padding: 1.5%;	
+	border: 2px solid white;	
+	border-radius: 5px;	
+}
+
+
+
+
+
+
